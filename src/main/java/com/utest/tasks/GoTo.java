@@ -10,7 +10,6 @@ public class GoTo implements Task {
         actor.attemptsTo(
                 Open.url("https://sanangel.com.co/")
 
-
         );
 
     }

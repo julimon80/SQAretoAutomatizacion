@@ -11,14 +11,7 @@ public class Page {
 
     public static final Target Go_Home = Target.the("home").locatedBy("//a[@href=\"https://sanangel.com.co/\"]");
 
-    public static final Target btn_second_product = Target.the("second product").locatedBy("//h2[contains(.,\"Manarola\")]");
-
     public static final Target Fininish = Target.the("finish buy").locatedBy("//a[@href=\"https://sanangel.com.co/finalizar-compra/\"]");
-
-
-
-
-
 
 
 

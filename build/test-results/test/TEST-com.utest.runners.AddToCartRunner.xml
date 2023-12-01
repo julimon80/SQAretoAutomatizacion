@@ -3,10 +3,10 @@
   <properties/>
   <system-out><![CDATA[loaded ch.qos.logback.classic.util.DefaultJoranConfigurator@130c12b7
 Found ch.qos.logback.classic.util.DefaultJoranConfigurator@130c12b7
-12:04:52.255 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
-12:04:52.418 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/casaf/Desktop/auti/SQAreto/src/test/resources/features/addtocart.feature
-12:04:52.726 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
-12:04:52.762 [Test worker] INFO  - 
+12:14:56.434 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+12:14:56.616 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/casaf/Desktop/auti/SQAreto/src/test/resources/features/addtocart.feature
+12:14:56.913 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+12:14:56.948 [Test worker] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -22,23 +22,27 @@ Found ch.qos.logback.classic.util.DefaultJoranConfigurator@130c12b7
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-12:04:52.769 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1f1ff80
-12:04:52.777 [Test worker] INFO  - Test Suite Started: Cart
-12:04:52.819 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/casaf/Desktop/auti/SQAreto/src/test/resources/features/addtocart.feature
-12:04:52.829 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1f1ff80
-12:04:52.831 [Test worker] INFO  - Test Suite Started: Cart
-12:05:48.156 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON]
-12:05:48.433 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON]
-12:05:48.470 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4627dfda
-12:05:48.471 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome cart:add 2 products in the cart
-12:05:48.471 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@4627dfda: Generating report for test outcome: cart:add 2 products in the cart
-12:05:48.490 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for add 2 products in the cart to file C:\Users\casaf\Desktop\auti\SQAreto\target\site\serenity\f453754198036dd0d2381cb12060cd43c06e07a875903918a1233efc21e203ed.json)
-12:05:48.584 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome cart:add 2 products in the cart done
-12:05:48.584 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-12:05:48.584 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 114 ms
-12:05:48.944 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
-12:05:48.944 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
-12:05:48.951 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:14:56.954 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1f1ff80
+12:14:56.958 [Test worker] INFO  - Test Suite Started: Cart
+12:14:56.981 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/casaf/Desktop/auti/SQAreto/src/test/resources/features/addtocart.feature
+12:14:56.986 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1f1ff80
+12:14:56.987 [Test worker] INFO  - Test Suite Started: Cart
+12:16:23.526 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON]
+12:16:24.495 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11207 : 1
+12:16:24.495 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0xbd7bbb90, L:/127.0.0.1:50622 ! R:localhost/127.0.0.1:11207] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+12:16:24.495 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0xbd7bbb90, L:/127.0.0.1:50622 ! R:localhost/127.0.0.1:11207]
+12:16:24.495 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 1 in 0 ms
+12:16:26.639 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON]
+12:16:27.309 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@41026e5c
+12:16:27.614 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome cart:add 2 products in the cart
+12:16:27.614 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@41026e5c: Generating report for test outcome: cart:add 2 products in the cart
+12:16:27.634 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for add 2 products in the cart to file C:\Users\casaf\Desktop\auti\SQAreto\target\site\serenity\f453754198036dd0d2381cb12060cd43c06e07a875903918a1233efc21e203ed.json)
+12:16:29.269 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome cart:add 2 products in the cart done
+12:16:29.270 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:16:29.270 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1961 ms
+12:16:30.421 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:16:30.421 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:16:30.431 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

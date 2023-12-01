@@ -43,7 +43,8 @@ public class SelectProduct implements Task {
                 Click.on(Go_Home),
                 Click.on(btn_a_product.of(String.valueOf(values.get(0).get("namesecondproduct")))),
                 Enter.theValue(values.get(0).get("numberofsecondproduct")).into(number_of_product),
-                Click.on(btn_submit)
+                Click.on(btn_submit),
+                Click.on(Go_Home)
 
         );
     }
